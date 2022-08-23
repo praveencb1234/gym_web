@@ -1,0 +1,34 @@
+.logo{margin-left: 2px;
+
+    height: 40px;
+    width: 80px;
+}
+.lists{
+
+    display: flex;
+    
+    list-style: none;
+    margin-left: 2px;
+}
+
+
+.navbar{
+
+    display: flex;
+
+    justify-content: space-between;
+}
+li{
+    display: flex;
+    
+text-transform: uppercase;
+font-weight: bold;
+font-size: small;
+    margin-right: 1rem;
+}
+li:hover{
+
+    cursor: pointer;
+    transform: scale(1.01);
+    color: var(--orange);
+}

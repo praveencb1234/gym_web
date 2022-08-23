@@ -1,0 +1,227 @@
+.head{
+    display: flex;
+    justify-content: space-between;
+background-color: rgb(72, 70, 70);
+
+}
+.right-side{
+
+flex: 1;
+background-color: var(--orange);
+}
+.left-side{
+flex: 3;
+
+
+}
+.ad{
+    display: flex;
+    margin-top: 1rem;
+    font-size: medium;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 4px;
+    margin: 20px 13px;
+    border-radius: 20px;
+    width: fit-content;
+    background-color: grey;
+    justify-content: flex-start;
+position: relative;
+    align-items: center;
+}
+.ad>div{
+display: flex;
+
+    background-color:var(--orange);
+    position: absolute;
+    width: 4rem;
+    height: 80%;
+    border-radius: 20px;
+    margin-left: 0.1rem;
+
+}
+.ad>span{
+
+    z-index: 3;
+}
+.body>span:nth-child(3){
+
+    display: flex;
+    
+    flex-direction: column;
+}
+.style-text{
+text-transform: uppercase;
+    font-size: 70px;
+}
+.body>span:nth-child(2){
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: bold;
+    -webkit-text-stroke-color:red ;
+    -webkit-text-stroke-width:2px ;
+}.body>span:nth-child(3){
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: yellow;
+    -webkit-text-stroke-color:red;
+    -webkit-text-stroke-width: 2px;
+
+}
+.qt>h3{
+
+    -webkit-text-stroke-width:0.2px ;
+    -webkit-text-stroke-color:red ;
+}
+.figures{
+
+    display: flex;
+    gap: 2rem;
+    color:black;
+}
+.figures>div>span{
+
+    display: flex;
+    text-transform: uppercase;
+    font-weight: bold;
+    flex-direction: column;
+}.figures>div>span:nth-child(2){
+-webkit-text-stroke-width: 0.5px;
+-webkit-text-stroke-color:var(--orange);
+    color:white};
+
+  
+  
+  button:hover{
+cursor: pointer;
+  }
+  button>:nth-child(2){
+
+background-color: red;
+  }
+  .first-b{
+
+    background-color:var(--orange);
+    border-radius: 10px;
+    border-color: aqua;
+    border-width: 1px;
+  }
+  .second-b{
+
+    background-color: aqua;
+    border-color: var(--orange);
+    margin-left: 4px;
+    border-radius: 10px;
+    border-width: 1px;
+  }
+  button:hover{
+border-color:red;
+    cursor: pointer;
+    transform: 300ms all;
+    transform: scale(1.0);
+    background-color: transparent;
+    
+  }
+ .btn-hrt{
+
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.8rem;
+ }
+ .sports-img{
+
+    height: 400px;
+    width: 230px;
+    position: absolute;
+    right: 4.8rem;
+    top: 4rem;
+ }
+ .hrt-shape{display: flex;
+    font-weight: bold;
+    flex-direction: column;
+width: fit-content;
+border-radius: 10px;
+justify-content: center;
+align-items: center;
+justify-items: center;
+align-content: center;
+margin-left: 4rem;
+
+    background-color: rgba(33, 32, 32, 0.767);
+ }
+ 
+ .hrt-shape>span{
+    display: flex;
+    flex-direction: column;
+    
+    left: 2rem;
+ }
+ .hrt{
+    margin-top: 2px;
+
+    height: 40px;
+width: 40px;
+ }
+ .show{
+
+    position: absolute;
+    right:13rem;
+    
+ }
+ .calorie-card{
+    display: flex;
+    height:fit-content;
+    width: fit-content;
+gap: 0.5rem;
+justify-items: center;
+align-items: center;
+position: absolute;
+border-radius: 18px;
+font-weight: bold;
+
+    background-color: rgb(87, 86, 86);
+    margin-top: 15rem;
+right: 16rem;
+
+ }
+ .calorie{
+
+    height: 60px;
+ }
+ .heads{
+top: 25rem;
+font-size: larger;
+    position: absolute;
+ }
+ .second-b:hover{
+
+    cursor: pointer;
+ }
+ button{
+margin-top: 1.4rem;
+
+ }
+
+  @media screen and (max-width:729){
+    
+.body{
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.right-side{
+position: relative;
+right: 1rem;
+
+}
+.img>:nth-child(2){
+
+right: 1rem;
+
+}
+
+
+  }

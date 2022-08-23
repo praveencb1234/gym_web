@@ -1,0 +1,74 @@
+body{
+
+    background-color: rgb(72, 70, 70);
+}
+.head{
+
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    
+}
+.heads{display: flex;
+
+    gap: 2.5rem;
+}
+.heads>span{
+    
+    font-size: xx-large;
+
+    margin-top: 3rem;
+}
+.heads>span:nth-child(1){
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: var(--orange);
+
+}
+.heads>span:nth-child(2){
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: yellow;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+    }
+    .heads>span:nth-child(3){
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color:red;
+        font-weight: bold;
+        color:black;
+        text-transform: uppercase;
+        }
+        .cards{
+
+            display: flex;
+            justify-content: center;
+        justify-items: center;
+        }
+        .card{
+
+            display: flex;
+            top:34rem;
+            gap:2rem;
+            
+margin-top: 6rem;
+
+            
+           color: white;
+           
+            
+        }
+        .cards>div>*:hover{
+            background-color:var(--orange);
+            color: white;
+            font-size: small;
+        }
+        .cards>div>*{
+            font-size: small;
+            height: fit-content;
+            display: flex;
+            
+        
+            
+        }
+  

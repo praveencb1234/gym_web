@@ -1,0 +1,23 @@
+.arrow{
+
+position: absolute;
+bottom: 2rem;
+left: 6rem;
+}
+.arrow:hover{
+color: yellow;
+    transform: scale(1.1);
+}
+b{position: relative;
+    left: 0.6rem;
+
+
+}
+.cards{
+
+    margin-top: 2px;
+}
+.card{
+
+    display: flex;
+}
