@@ -1,3 +1,28 @@
+
+# Gym -static -website
+
+
+# check here link: https://gym-web-7t6.pages.dev/
+
+
+
+
+# screenshot
+![sgym-web-screenshot](https://user-images.githubusercontent.com/67305698/186149832-39c15523-bde1-4a8d-9ed7-a8d5a59d1e85.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
